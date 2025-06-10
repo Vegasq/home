@@ -1,0 +1,20 @@
+---
+layout: default
+title: Home
+---
+<div class="hero">
+    <h1>Welcome to Your Jekyll Site</h1>
+    <p>This is a simple Jekyll website hosted on GitHub Pages.</p>
+</div>
+
+<section class="recent-posts">
+    <h2>Recent Posts</h2>
+    <ul>
+        {% for post in site.posts limit:5 %}
+        <li>
+            <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            <time>{{ post.date | date: "%B %d, %Y" }}</time>
+        </li>
+        {% endfor %}
+    </ul>
+</section>
