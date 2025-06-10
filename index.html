@@ -1,11 +1,40 @@
 ---
 layout: default
-title: Home
+title: MKLA/DEV
 ---
-<div class="hero">
-    <h1>Welcome to Your Jekyll Site</h1>
-    <p>This is a simple Jekyll website hosted on GitHub Pages.</p>
-</div>
+
+<section class="projects">
+    <h2>Active Projects</h2>
+    <div class="project-list">
+
+        <div class="project-item">
+            <div class="project-screenshot">
+                <img src="{{ '/assets/images/projects/litera-screenshot.png' | relative_url }}" alt="Litera App Screenshot">
+            </div>
+            <div class="project-details">
+                <h3><a href="https://apps.apple.com/us/app/litera-word-scrabble-puzzle/id6504444568" target="_blank">Litera - Word Scrabble Puzzle</a></h3>
+                <p>iOS word puzzle game that challenges players with Scrabble-style gameplay. Available on the App Store.</p>
+                <div class="project-links">
+                    <a href="https://apps.apple.com/us/app/litera-word-scrabble-puzzle/id6504444568" target="_blank">View on App Store →</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="project-item">
+            <div class="project-screenshot">
+                <img src="{{ '/assets/images/projects/hashes-pro-screenshot.png' | relative_url }}" alt="Hashes.pro Screenshot">
+            </div>
+            <div class="project-details">
+                <h3><a href="https://hashes.pro" target="_blank">Hashes.pro</a></h3>
+                <p>Web-based cryptographic hash utility offering hash generation, verification, and analysis tools. Supports MD5, SHA-1, SHA-256, SHA-512, and more.</p>
+                <div class="project-links">
+                    <a href="https://hashes.pro" target="_blank">Visit Site →</a>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+</section>
 
 <section class="recent-posts">
     <h2>Recent Posts</h2>

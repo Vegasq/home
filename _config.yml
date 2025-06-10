@@ -1,12 +1,11 @@
 # Jekyll configuration
-title: Your Site Title
-description: A description of your website
+title: MKLA/DEV
+description: If my wife got a website, i should get one too.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
-theme: minima
 
 # Exclude files from build
 exclude:

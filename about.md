@@ -6,15 +6,30 @@ permalink: /about/
 
 # About
 
-This is the about page for your Jekyll site. You can edit this page to include information about yourself, your project, or your organization.
+Staff Software Engineer specializing in cybersecurity, cloud technologies, and data streaming. Dad, developer, geek, gamer, and coffee addict ❤️🇺🇦
 
-## Features
+## Technical Stack
 
-- Built with Jekyll
-- Hosted on GitHub Pages
-- Responsive design
-- Easy to customize
+- **Languages:** Go, Python, JavaScript
+- **Specializations:** Cybersecurity, Cloud Technologies, Data Streaming, Password Security
 
-## Contact
+## Current Work
 
-Add your contact information here.
+Staff Software Engineer at SpyCloud, building tools that help protect against cybersecurity threats. Previously worked on various projects involving password security, data processing, and distributed systems.
+
+## Notable Projects
+
+- **[Hashes.pro](https://hashes.pro)** - Online hash identification and analysis service
+- **argon2-kraken** - Password cracking tool utilizing Argon2 hashing
+- **golaga** - Space shooter game built in Go
+- **GoPrintTable** - Go library for formatting string tables
+- **LITERA** - iOS word puzzle game
+
+## Connect
+
+- **GitHub:** [github.com/vegasq](https://github.com/vegasq)
+- **LinkedIn:** [linkedin.com/in/vegasq](https://www.linkedin.com/in/vegasq)
+
+---
+
+*Building practical solutions, one commit at a time.*
