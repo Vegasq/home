@@ -1,9 +1,9 @@
 source "https://rubygems.org"
 
-gem "jekyll", "~> 3.10.0"
-gem "kramdown-parser-gfm"
+# Use the github-pages gem for GitHub Pages compatibility
+gem "github-pages", group: :jekyll_plugins
 
-# If you have any plugins, put them here!
+# If you have any additional plugins, put them here!
 group :jekyll_plugins do
   # gem "jekyll-feed", "~> 0.12"
 end

@@ -11,6 +11,10 @@ markdown: kramdown
 exclude:
   - README.md
   - .gitignore
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
+  - .bundle/
 
 # Permalink structure
 permalink: /:title/
