@@ -1,11 +1,13 @@
 source "https://rubygems.org"
 
-# Use the github-pages gem for GitHub Pages compatibility
-gem "github-pages", group: :jekyll_plugins
+# Jekyll and theme
+gem "jekyll", "~> 4.3"
+gem "minima", "~> 2.5"
 
-# If you have any additional plugins, put them here!
+# Plugins
 group :jekyll_plugins do
-  # gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-feed", "~> 0.12"
+  gem "jekyll-seo-tag", "~> 2.8"
 end
 
 # Windows and JRuby does not include zoneinfo files, so bundle the tzinfo-data gem

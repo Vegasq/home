@@ -1,11 +1,27 @@
 # Jekyll configuration
 title: MKLA/DEV
-description: If my wife got a website, i should get one too.
+description: Нотатки
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+theme: minima
+
+author: Nick Yakovliev
+
+# Minima settings
+minima:
+  skin: dark
+  date_format: "%B %d, %Y"
+
+# Social links (minima 2.5 format)
+github_username: Vegasq
+linkedin_username: vegasq
+rss: rss
+
+# Show post excerpts on home page
+show_excerpts: true
 
 # Exclude files from build
 exclude:

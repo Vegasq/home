@@ -1,0 +1,135 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+
+// Dark theme color overrides
+$brand-color:           #58a6ff !default;
+$brand-color-light:     #8ab4f8 !default;
+$brand-color-dark:      #2f81f7 !default;
+
+$site-title-color:      #e0e0e0 !default;
+
+$text-color:            #e0e0e0 !default;
+$background-color:      #1a1a1a !default;
+$code-background-color: #2d2d2d !default;
+
+$grey-color:            #8b949e !default;
+$grey-color-light:      lighten($grey-color, 40%) !default;
+$grey-color-dark:       darken($grey-color, 25%) !default;
+
+$table-text-color:      #e0e0e0 !default;
+
+// Import minima theme
+@import "minima";
+
+// Additional dark theme overrides
+body {
+  background-color: $background-color;
+  color: $text-color;
+}
+
+.site-header {
+  background-color: #0d1117;
+  border-bottom: 1px solid #333;
+}
+
+.site-footer {
+  background-color: #0d1117;
+  border-top: 1px solid #333;
+}
+
+a {
+  color: $brand-color;
+
+  &:visited {
+    color: #8e96f0;
+  }
+
+  &:hover {
+    color: $brand-color-light;
+  }
+}
+
+code,
+pre {
+  background-color: $code-background-color;
+  border: 1px solid #333;
+  color: #e6edf3;
+}
+
+.highlight {
+  background-color: $code-background-color;
+
+  pre {
+    background-color: $code-background-color;
+  }
+}
+
+blockquote {
+  color: $grey-color;
+  border-left: 4px solid #333;
+}
+
+table {
+  thead {
+    background-color: #2d2d2d;
+    border: 1px solid #333;
+
+    th {
+      border: 1px solid #333;
+    }
+  }
+
+  tbody {
+    tr {
+      border: 1px solid #333;
+
+      td {
+        border: 1px solid #333;
+      }
+
+      &:nth-child(even) {
+        background-color: #242424;
+      }
+    }
+  }
+}
+
+hr {
+  border-color: #333;
+}
+
+.post-list > li {
+  border-bottom: 1px solid #333;
+}
+
+.pagination {
+  a, .previous, .next {
+    border: 1px solid #333;
+  }
+}
+
+// SVG icons fill color
+.social-media-list {
+  a {
+    &:hover {
+      .username {
+        text-decoration: underline;
+      }
+    }
+  }
+
+  svg {
+    fill: $grey-color;
+  }
+}
+
+.site-nav {
+  .page-link {
+    color: $text-color;
+
+    &:hover {
+      color: $brand-color;
+    }
+  }
+}
