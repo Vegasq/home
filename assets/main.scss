@@ -62,6 +62,13 @@ pre {
 
   pre {
     background-color: $code-background-color;
+    background: $code-background-color;
+  }
+}
+
+.highlighter-rouge {
+  .highlight {
+    background-color: $code-background-color;
   }
 }
 
